@@ -1,22 +1,23 @@
-#pragma once // prevents multiple definitions
+#pragma once // previene múltiples definiciones
 
-#include <iostream> // print library
+#include <iostream> // biblioteca estándar https://es.wikibooks.org/wiki/Programaci%C3%B3n_en_C%2B%2B/Streams
 
-// Exercise 1: implements function 'add', that adds two numbers
+// Ejercicio 1: implementa la función 'add', que suma dos números
 int add(int a, int b);
 
-// Exercise 2: implements function 'mul', that multiplies two numbers
+// Ejercicio 2: implementa la función 'mul', que multiplica dos números
 int mul(int a, int b);
 
-// ===============
-// implementations
+// ================
+// implementaciones
 
+// Ejercicio 1: implementa la función 'add', que suma dos números
 int add(int a, int b)
 {
    return 0; // TODO: fix
 }
 
-// Exercise 2: implements function 'mul', that multiplies two numbers
+// Ejercicio 2: implementa la función 'mul', que multiplica dos números
 int mul(int a, int b)
 {
    return 0; // TODO: fix

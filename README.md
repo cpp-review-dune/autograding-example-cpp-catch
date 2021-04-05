@@ -1,60 +1,38 @@
-# autograding-example-cpp-catch
+# `cpp-basics`
 
-*Learning Autograding with C/C++ and Catch2 - Prof. Igor Machado Coelho*
+Basado en [autograding-example-cpp-catch](https://github.com/igormcoelho-learning/autograding-example-cpp-catch).
 
-**IMPORTANT:** If autograding (GitHub Actions) doesn't start for you, *check again the Invitation Link for
-the activity* and hit the link named **update**.
+Si quieres practicar esta actividad, sigue este [link](https://classroom.github.com/a/SYnlANLY).
 
-If you want to practice this activity, just follow this link: https://classroom.github.com/a/X_8PAk4h
+## Descripción del problema
 
-## Full-Name-Of-Student
+Esta parte describe la actividad. Esta actividad de ejemplo consiste en fijar dos funciones: una que suma dos enteros y otra que multiplica dos enteros.
 
-**TODO - Please put your name in this README**
+## Objetivo
 
-## Problem Description
+- Hacer que el código pase correctamente en todas las pruebas
 
-This part describes the activity. This example activity consists in fixing two functions: one that adds two integers, and another that multiplies two integers.
+  - solo cambie los archivos permitidos para lograr este objetivo (vea las instrucciones a continuación con reglas específicas).
 
-## Objective
+- Las acciones de GitHub deben presentar un marcador verde cuando todas las pruebas son satisfechas, y una X roja cuando fallan algunas (o todas) las pruebas.
 
-- Make the code pass correctly on all tests
-   * only change the allowed files to achieve this goal (see instructions below with specific rules).
+## Instrucciones
 
-- The GitHub Actions should present a green marker when all tests are satisfied, and a red X when some (or all) of tests fail. 
-    * **Advice:** You can click on the red X to verify which tests have failed (or if code didn't compile correctly).
-    * **Advice 2:** If no autograding test appear, it may be required for the **instructor** to *update the test activities*, so that all student repos are refreshed (regarding autograding).
+- ¡Solo puede cambiar el archivo `student.hpp`!
+  - En el archivo `student.hpp` ponga sus implementaciones.
 
-## Instructions
+Explicaciones para los otros archivos:
 
-- You can ONLY change files `student.hpp` and `README.md`!
-   * In file `student.hpp` put your implementations, and in `README.md` put your full name.
+- archivo `tests.cpp` tiene todas las pruebas para la actividad (¡No lo edite!)
+- archivo `catch.hpp` tiene la biblioteca de pruebas `CATCH2` (¡No lo edite!)
+- archivo `makefile` tiene los comandos para ejecutar la actividad (¡No lo edite!)
+- archivo `appTests` se generará después de compilar (si desea probar localmente, simplemente ejecútelo)
 
-Explanations for the other files:
+## Comandos para pruebas locales
 
-- file `tests.cpp` has all tests for the activity (DO NOT CHANGE!)
-- file `catch.hpp` has the testing library  CATCH2 (DO NOT CHANGE!)
-- file `makefile` has the commands for executing activity (DO NOT CHANGE!)
-- file  `appTests` will be generated after compiling (if you want to test locally, just execute it)
+- Comando para construir y ejecutar pruebas: `make test`
+  - Si el ejecutable ya está construido, simplemente escriba: `./appTests`
 
-## Commands for Local Testing
+## Licencia
 
-- Command to build and execute tests: `make test`
-    * If executable is built already, just type: `./appTests`
-
-## Notes
-
-- The code will be evaluated only if compiling! 
-   * The reason is, if it doesn't compile, it won't be possible to generate the executable and to perform tests.
-
-- Some test cases may receive individual grade, while others may only receive grade if passing together (or even all tests passing together).
-
-- The final grade will be given automatically on every *commit*, and will only be evaluated until the deadline of the activity.
-
-- The deadline is defined in GitHub Classroom
-   * in case you cannot find it, ask the instructor or the course webpage
-
-Check all other rules with instructor.
-
-## License
-
-MIT License 2020
+Licencia GPL v2.
