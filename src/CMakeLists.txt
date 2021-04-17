@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 3.19.6)
+cmake_minimum_required(VERSION 3.13.4)
 project(test_tutorial LANGUAGES CXX VERSION 0.0.1)
 
 set(CMAKE_CXX_STANDARD 20)
