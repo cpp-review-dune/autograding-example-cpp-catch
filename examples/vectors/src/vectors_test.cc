@@ -1,5 +1,6 @@
 // Definiciones de prueba. ¡No edite este archivo!
 
+#include <iostream>
 #include <tuple>
 #include <vector>
 #define CATCH_CONFIG_MAIN // define main() automáticamente
@@ -13,14 +14,7 @@
 
 TEST_CASE("Ex1", "[example]")
 {
-    REQUIRE(add(1, 1) == 2);
-}
+    std::vector<int> alpha = { 3, 4 };
 
-// ===========================
-// pruebas para el ejercicio 2
-// ---------------------------
-
-TEST_CASE("Ex2", "[example]")
-{
-    REQUIRE(mul(3, 3) == 9);
+    REQUIRE(norm_2(alpha) == 5.0);
 }
